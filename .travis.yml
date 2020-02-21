@@ -1,0 +1,24 @@
+language: node
+node_js:
+  - "12.7.0"
+
+cache:
+  npm: false
+
+services:
+  - xvfb
+
+before_script:
+  - export DISPLAY=:99.0
+
+install:
+  - npm install
+
+script:
+  - ng lint
+  - ng test --watch=false
+  - ng e2e
+  - ng build
+
+addons:
+  chrome: stable

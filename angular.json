@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fusion": {
+    "findmyfood": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fusion",
+            "outputPath": "dist/findmyfood",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "fusion:build"
+            "browserTarget": "findmyfood:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "fusion:build:production"
+              "browserTarget": "findmyfood:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fusion:build"
+            "browserTarget": "findmyfood:build"
           }
         },
         "test": {
@@ -111,15 +111,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "fusion:serve"
+            "devServerTarget": "findmyfood:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "fusion:serve:production"
+              "devServerTarget": "findmyfood:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "fusion"
+  "defaultProject": "findmyfood"
 }
