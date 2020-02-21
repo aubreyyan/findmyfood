@@ -2,6 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/aubrey-y/findmyfood?style=for-the-badge)](https://travis-ci.com/aubrey-y/findmyfood)
 [![Build Status](https://img.shields.io/codecov/c/github/aubrey-y/findmyfood?label=codecov&style=for-the-badge)](https://travis-ci.com/aubrey-y/findmyfood)
+[![Build Status](https://img.shields.io/librariesio/github/aubrey-y/findmyfood?style=for-the-badge)](https://libraries.io/github/aubrey-y/findmyfood)
 ![Build Status](https://img.shields.io/website?style=for-the-badge&url=http%3A%2F%2Ffindmyfood.xyz)
 
 ![Build Status](https://img.shields.io/github/languages/top/aubrey-y/findmyfood?style=for-the-badge)
