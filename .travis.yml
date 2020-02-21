@@ -16,9 +16,10 @@ install:
 
 script:
   - ng lint
-  - ng test --watch=false
+  - ng test --watch=false --code-coverage
   - ng e2e
   - ng build
+  - codecov
 
 addons:
   chrome: stable
