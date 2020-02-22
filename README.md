@@ -1,7 +1,7 @@
 # findmyfood.xyz
 
 [![Build Status](https://img.shields.io/travis/aubrey-y/findmyfood)](https://travis-ci.com/aubrey-y/findmyfood)
-[![Code Coverage](https://img.shields.io/codecov/c/github/aubrey-y/findmyfood)](https://travis-ci.com/aubrey-y/findmyfood)
+[![codecov](https://codecov.io/gh/aubrey-y/findmyfood/branch/master/graph/badge.svg)](https://codecov.io/gh/aubrey-y/findmyfood)
 [![Dependencies](https://img.shields.io/david/aubrey-y/findmyfood)](https://depfu.com/repos/github/aubrey-y/findmyfood)
 [![Website Status](https://img.shields.io/website?url=http%3A%2F%2Ffindmyfood.xyz)](http://findmyfood.xyz)
 
