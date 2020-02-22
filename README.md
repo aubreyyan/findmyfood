@@ -9,7 +9,7 @@
 ![Languages](https://img.shields.io/github/languages/count/aubrey-y/findmyfood)
 [![Code Quality](https://img.shields.io/codacy/grade/02dcc5b5b99c40b7b0d993c89c3159de)](https://app.codacy.com/manual/aubrey-y/findmyfood/dashboard)
 [![Maintainability](https://api.codeclimate.com/v1/badges/162ac0df6c691ff9c5d1/maintainability)](https://codeclimate.com/github/aubrey-y/findmyfood/maintainability)
-[![Security](https://img.shields.io/coverity/scan/20421)](https://codeclimate.com/github/aubrey-y/findmyfood/maintainability)
+[![Security](https://img.shields.io/coverity/scan/20421)](https://scan.coverity.com/projects/aubrey-y-findmyfood)
 
 
 ![Code Size](https://img.shields.io/github/languages/code-size/aubrey-y/findmyfood)
