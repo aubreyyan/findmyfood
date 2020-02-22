@@ -35,6 +35,6 @@ addons:
       name: "aubrey-y/findmyfood"
       description: "find your food"
     notification_email: aubreym.yan@gmail.com
-    build_command_prepend: "npm install -g @angular/cli@latest"
+    build_command_prepend: "cmake ."
     build_command: "ng build"
     branch_pattern: coverity_scan
