@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable({providedIn: 'root'})
 class LoggerService {
-  info(msg: any) {
+  info(msg: any): void {
     console.log(msg);
   }
 
-  warn(msg: any) {
+  warn(msg: any): void {
     console.warn(msg);
   }
 
-  error(msg: any) {
+  error(msg: any): void {
     console.error(msg);
   }
 }

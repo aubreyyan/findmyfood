@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import {CoreModule} from './core/core.module';
 
 const appRoutes: Routes = [
   {
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
     BrowserModule,
     NgbModule,
     HttpClientModule,
+    CoreModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

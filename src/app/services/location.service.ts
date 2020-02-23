@@ -1,19 +1,20 @@
 import { Injectable } from '@angular/core';
 import {LoggerService} from './logger.service';
 
-@Injectable()
+@Injectable({providedIn: 'root'})
 class LocationService {
   constructor(private log: LoggerService) { }
 
-  getLocation(): number[] {
+  getLocation(): string[] {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
         const longitude = position.coords.longitude;
         const latitude = position.coords.latitude;
-        return [longitude, latitude];
+        console.log([String(latitude), String(longitude)])
+        return [String(latitude), String(longitude)];
       });
     } else {
-      this.log.info('No support for geolocation');
+      this.log.warn('No support for geolocation');
       return null;
     }
   }
