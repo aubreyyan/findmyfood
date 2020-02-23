@@ -11,6 +11,7 @@ class FusionService {
 
   getTransactions(transactionType: string, body: any): Observable<TransactionsDeliveryDao> {
     const uri = `${root}/transactions/${transactionType}`;
+    console.log(body)
     return this.http.post<TransactionsDeliveryDao>(uri, body);
   }
 }
