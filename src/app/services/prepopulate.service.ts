@@ -12,11 +12,18 @@ class PrepopulateService {
               private fusionService: FusionService,
               private log: LoggerService) { }
 
-  prepopulate(): void {
-    const coords: string[] = this.locationService.getLocation();
+  async prepopulate(): Promise<boolean> {
+    const coords: string[] = await this.locationService.getLocation();
+    console.log(coords)
+    if(coords == null) {
+      return false;
+    }
+    console.log('reached')
     console.log(coords)
     const businesses: Observable<TransactionsDeliveryDao> = this.fusionService
-      .getTransactions('delivery', new Coordinate(coords[0], coords[1]))
+      .getTransactions('delivery', new Coordinate(coords[0], coords[1]));
+    console.log(businesses)
+    return true;
   }
 }
 

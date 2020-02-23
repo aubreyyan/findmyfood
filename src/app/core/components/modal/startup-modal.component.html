@@ -1,0 +1,21 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-title">Enable location services</h4>
+  <button type="button" class="close" aria-label="Close button" aria-describedby="modal-title" (click)="modal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <p>
+    For the best user experience, please select <strong>Ok</strong> below.
+  </p>
+  <p>
+    <i>Your preferences will be saved and this will no longer automatically pop up.</i>
+  </p>
+  <p>
+    <i>You may reopen this dialog at any time to update your preferences.</i>
+  </p>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-secondary" (click)="disable()">No thanks</button>
+  <button type="button" ngbAutofocus class="btn btn-success" (click)="enable()">Ok</button>
+</div>
